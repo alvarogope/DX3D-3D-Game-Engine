@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{fc4e30a9-20d4-4120-8c7d-cf8dc5a4b05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{56560675-45e7-431a-92dc-811a835243ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{24031d7d-e462-4802-aaf9-b6294c5916cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core">
+      <UniqueIdentifier>{38ca46d6-9452-4e07-b7d7-d64d1712b9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Game">
+      <UniqueIdentifier>{2f13c370-fa55-4677-a148-2653ea9d2e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Graphics">
+      <UniqueIdentifier>{4affec80-32dc-46af-8da6-45ab1273b0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Window">
+      <UniqueIdentifier>{9b491e63-0ea3-4fd6-ba53-ece580fac02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Window">
+      <UniqueIdentifier>{5070497c-8915-4eea-bdb9-90b49ebba2a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\DX3D\All.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DX3D\Graphics\RenderSystem.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Core\Base.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Core\Core.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Core\Logger.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Game\Game.h">
+      <Filter>Include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Graphics\GraphicsEngine.h">
+      <Filter>Include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DX3D\Window\Window.h">
+      <Filter>Include\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DX3D\Core\Base.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DX3D\Core\Logger.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DX3D\Game\Game.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DX3D\Graphics\GraphicsEngine.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DX3D\Graphics\RenderSystem.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
