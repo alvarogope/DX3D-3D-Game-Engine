@@ -27,6 +27,7 @@ void dx3d::Game::run()
 {
     while (m_display->broadcast())
     {
-		m_graphicsEngine->present(true);
+        m_graphicsEngine->clear(0.2f, 0.4f, 0.8f);
+        m_graphicsEngine->present(true);
     }
 }

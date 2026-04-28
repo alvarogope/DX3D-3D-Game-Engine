@@ -19,3 +19,8 @@ void dx3d::GraphicsEngine::present(bool vsync)
 {
     m_renderSystem->present(vsync);
 }
+
+void dx3d::GraphicsEngine::clear(float r, float g, float b)
+{
+    m_renderSystem->clear(r, g, b);
+}

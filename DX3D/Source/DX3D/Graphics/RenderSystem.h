@@ -20,9 +20,11 @@ namespace dx3d
         explicit RenderSystem(const RenderSystemDesc& desc);
         virtual ~RenderSystem() override;
         void present(bool vsync);
+        void clear(float r, float g, float b);
     private:
         Microsoft::WRL::ComPtr<ID3D11Device>        m_d3dDevice{};
         Microsoft::WRL::ComPtr<ID3D11DeviceContext>  m_d3dContext{};
         Microsoft::WRL::ComPtr<IDXGISwapChain>       m_swapChain{};
+        Microsoft::WRL::ComPtr<ID3D11RenderTargetView> m_renderTargetView{};
     };
 }

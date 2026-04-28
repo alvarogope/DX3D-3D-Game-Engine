@@ -17,6 +17,7 @@ namespace dx3d
         explicit GraphicsEngine(const GraphicsEngineDesc& desc);
         virtual ~GraphicsEngine() override;
 		void present(bool vsync);
+        void clear(float r, float g, float b);
     private:
         std::unique_ptr<RenderSystem> m_renderSystem{};
     };
